@@ -4,22 +4,22 @@ cask "orbit-sentinel-mcp" do
 
   on_macos do
     on_intel do
-      sha256 "74aef9846e6262514b8cc6010e1f6e1b06ef5ce36c54c48594339be2c88f7714"
+      sha256 "bbbe80896aee3ffc60ae8bd31f741b779b95a642c57fd7abcd61ab415a97ec35"
       url "https://github.com/Viventine-Space/orbit-sentinel-mcp/releases/download/v#{version}/orbit-sentinel-mcp_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "b0430ceaded7d8ed29751e4ef47c7ac0302d4556ed05857a120fc68823f218ce"
+      sha256 "59764272e693d7d4f3ecd76be2906c0fd0d12e1babeeeb1c67dde7e2437ac5f1"
       url "https://github.com/Viventine-Space/orbit-sentinel-mcp/releases/download/v#{version}/orbit-sentinel-mcp_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "f558d68f749775fa6af82fa180aa71b7e60caed86a6fd2314fc8de39139d7bc7"
+      sha256 "c879ec53606276d1dc9ce422c9cd4a0e697fe84ed4c298a8fc80c7e332049320"
       url "https://github.com/Viventine-Space/orbit-sentinel-mcp/releases/download/v#{version}/orbit-sentinel-mcp_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "38fcd8f59e4b77c447c97bc9a4c735589503103cf6a1b4af2aecc2d3a2fcc000"
+      sha256 "f73f25f5894a4ce922361d6980e2c2c9a0dcca1bef4d26ee590d907df04104fb"
       url "https://github.com/Viventine-Space/orbit-sentinel-mcp/releases/download/v#{version}/orbit-sentinel-mcp_linux_arm64.tar.gz"
     end
   end
